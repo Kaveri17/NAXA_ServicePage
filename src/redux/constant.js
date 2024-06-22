@@ -1,0 +1,2 @@
+export const GET_SERVICES = "SERVICES_DATA"
+export const SET_SERVICES = "SET_SERVICES_DATA"

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Montserrat;
+}
+.wrapper {
+  width: 88%;
+  margin: 0 auto;
+}
+
+/* Header.jsx */
+
+.logo {
+  width: 12%; /* Base width for screens wider than 1024px */
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 20%; /* Width for screens up to 1024px */
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 25%; /* Width for screens up to 600px */
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 38%; /* Width for screens up to 600px */
+  }
+}
+
+.notice-arrow {
+  display: none;
+}
+
+.notice:hover .notice-arrow {
+  display: inline;
+}
+.nav-link1:hover .nav-sublink1,
+.nav-link2:hover .nav-sublink2,
+.nav-link3:hover .nav-sublink3 {
+  display: block;
+}
+.nav-sublink1,
+.nav-sublink2,
+.nav-sublink3 {
+  display: none;
+}
+
+.nav-arrow {
+  display: none;
+}
+
+.nav-btn:hover .nav-arrow {
+  display: inline;
+}
+
+/* Service.jsx */
+.service {
+  background-image: url("/public/bg.jpg");
+  height: 79vh;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
