@@ -1,5 +1,5 @@
 # NAXA_ServicePage
-This is a clone webpage of the NAXA's Service Page.
+This is a cloned webpage of NAXA's Service Page.
 This application is built using React, Redux, Redux-Saga, HTML, CSS and API Integration.
 
 # Getting Started with Create React App
@@ -8,13 +8,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Installation 
 1 Clone the repository to your local folder:
- git clone https://github.com/Kaveri17/NAXA_ServicePage.git
+
+### `git clone https://github.com/Kaveri17/NAXA_ServicePage.git`
 
 2 Navigate to the project directory:
- cd main
+
+### `cd naxaservicepage`
 
 3 Install the dependencies:
- npm install
+
+### `npm install`
 
 4 In the project directory, you can run:
 
