@@ -112,10 +112,10 @@ const Header = () => {
             </Link>
           </div>
           <button
-            className="button lg:w-2/12 md:w-1/5 sm:w-1/3 w-2/5 flex justify-center items-center font-semibold text-sm  "
+            className="button lg:w-2/12 md:w-1/5 sm:w-1/3 w-2/5 flex justify-center items-center font-semibold md:text-sm text-xs  "
             // style={{ fontSize: "15px" }}
           >
-            <li className="nav-btn list-none bg-[#ffdc1c] hover:bg-[#ffa01c] text-[#05f] lg:w-4/5 w-11/12 px-3 py-2 leading-6">
+            <li className="nav-btn list-none bg-[#ffdc1c] hover:bg-[#ffa01c] text-[#05f] lg:w-4/5 w-11/12 px-3 md:py-2 py-1 leading-6 ">
               Let's talk
               <i class="bi bi-arrow-right nav-arrow text-[#05f] font-extrabold align-middle sm:ps-2"></i>
             </li>

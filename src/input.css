@@ -9,6 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: Montserrat;
+  scroll-behavior: smooth;
 }
 .wrapper {
   width: 88%;
@@ -69,5 +70,5 @@
   height: 79vh;
   background-position: 100%;
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: contain;
 }
